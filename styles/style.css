@@ -14,16 +14,10 @@
 }
 
 /* primary styles */
-/* body{
-    width: 1440px;
-    margin: 0 auto;
-} */
-
-/* nav bar styles */
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 120px;
+    margin: 50px 150px;
     align-items: center;
 
 }
@@ -38,7 +32,7 @@
     text-decoration: none;
 }
 
-.nav h3 {
+.nav h1 {
     color: var(--paragraph-color);
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 1.5rem;
@@ -59,7 +53,7 @@
 /* banner styles */
 .banner-container {
     display: flex;
-    margin: 0 140px;
+    margin: 0 150px;
     background: url('../images/Circle-design.svg');
     background-repeat: no-repeat;
     justify-content: space-between;
@@ -174,27 +168,70 @@
 }
 
 /* all-at-ones styles */
-.all-at-ones{
+.all-at-ones {
     display: flex;
     margin: 160px;
     align-items: center;
     justify-content: space-evenly;
 
 }
+
+.all-at-ones img {
+    width: 550px;
+}
+
 .all-at-ones-texts {
     width: 40%;
-    
+
 }
-.all-at-ones-texts h2{
+
+.all-at-ones-texts h2 {
     margin-bottom: 20px;
 }
-.all-at-ones-texts p{
+
+.all-at-ones-texts p {
     margin-bottom: 20px;
 }
-.all-at-ones-texts button{
+
+.all-at-ones-texts button {
     background-color: var(--button-color);
     border: 0;
     padding: 10px 20px;
     color: white;
     border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* footer style */
+.footer {
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    min-height: 250px;
+    margin-top: 30px;
+
+}
+
+.foot-text h2 {
+    color: #D9DBE1;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.foot-text {
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.foot-text p {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.foot-icons * {
+    margin: 10px;
+    filter: invert(99%) sepia(8%) saturate(178%) hue-rotate(153deg) brightness(118%) contrast(100%);
 }

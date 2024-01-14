@@ -65,14 +65,14 @@
     }
     .all-at-ones{
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }
     .all-at-ones img{
         width: 100%;
     }
     .all-at-ones-texts{
-        width: 100%;
+        width: 97%;
         margin: 0;
     }
 }
