@@ -63,6 +63,18 @@
     .popular-collection{
         margin: 0;
     }
+    .all-at-ones{
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .all-at-ones img{
+        width: 100%;
+    }
+    .all-at-ones-texts{
+        width: 100%;
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -117,7 +129,21 @@
     .popular-collection{
         margin: 0;
     }
-  
+    .all-at-ones{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .all-at-ones img{
+        width: 600px;
+        border: 2px solid rgba(224, 44, 109, 0.87);
+        border-radius: 10px;
+    }
+    .all-at-ones-texts{
+        width: 95%;
+        margin: 0;
+    }
+   
 
 
 }

@@ -155,7 +155,7 @@
 }
 
 .all-cards p {
-    color:  #787885;
+    color: #787885;
     font-size: 14px;
     font-weight: 700;
     line-height: 143%;
@@ -164,3 +164,37 @@
     margin: 10px 0;
 }
 
+.see-more p {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 140px;
+}
+
+/* all-at-ones styles */
+.all-at-ones{
+    display: flex;
+    margin: 160px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.all-at-ones-texts {
+    width: 40%;
+    
+}
+.all-at-ones-texts h2{
+    margin-bottom: 20px;
+}
+.all-at-ones-texts p{
+    margin-bottom: 20px;
+}
+.all-at-ones-texts button{
+    background-color: var(--button-color);
+    border: 0;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
