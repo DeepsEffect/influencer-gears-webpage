@@ -1,0 +1,123 @@
+/* media queries */
+@media screen and (max-width:576px) {
+
+    .nav,
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .nav {
+        margin: 10px;
+    }
+
+    .nav ul {
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        margin-bottom: 10px;
+    }
+
+    .nav h3 {
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        color: var(--headings-color);
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .header-texts {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner-container {
+        margin: 0;
+        background-position: top;
+        background-size: 500px 300px;
+        padding: 40px;
+        margin-top: 50px;
+
+
+    }
+
+    .sponsor {
+        flex-wrap: wrap;
+        margin: 0;
+        /* padding: 0; */
+    }
+
+    .sponsor img {
+        width: 90px;
+        margin: 10px auto;
+
+
+    }
+    .all-cards{
+        grid-template-columns: 1fr;
+        /* margin: 0;
+        padding: 0 ; */
+    }
+    .popular-collection{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+    .nav,
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+    .banner-container{
+        background-position: top;
+    }
+
+    .nav {
+        margin: 10px;
+    }
+
+    .nav ul {
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-bottom: 10px;
+    }
+
+    .nav h3 {
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+        color: var(--headings-color);
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .header-img {
+        margin-bottom: 40px;
+    }
+
+    .sponsor {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 30px;
+        width: 60%;
+    }
+
+    .sponsor img {
+        max-width: 100px;
+        margin: 15px auto;
+
+    }
+    .all-cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .popular-collection{
+        margin: 0;
+    }
+  
+
+
+}

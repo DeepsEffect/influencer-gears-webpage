@@ -59,9 +59,12 @@
 /* banner styles */
 .banner-container {
     display: flex;
-    margin: 0 130px;
+    margin: 0 140px;
+    background: url('../images/Circle-design.svg');
+    background-repeat: no-repeat;
     justify-content: space-between;
     align-items: center;
+    background-position: right;
 }
 
 .header-texts * {
@@ -95,11 +98,6 @@
     padding: 5px 40px;
     white-space: nowrap;
 
-}
-
-.header-img {
-    background: url('../images/Circle-design.svg');
-    background-repeat: no-repeat;
 }
 
 /* sponsor section */
@@ -166,102 +164,3 @@
     margin: 10px 0;
 }
 
-/* media queries */
-@media screen and (max-width:576px) {
-
-    .nav,
-    .banner-container {
-        flex-direction: column-reverse;
-    }
-
-    .nav {
-        margin: 10px;
-    }
-
-    .nav ul {
-        flex-wrap: wrap;
-        gap: 15px;
-        margin-bottom: 10px;
-    }
-
-    .nav h3 {
-        margin-bottom: 20px;
-        font-size: 1.3rem;
-        color: var(--headings-color);
-    }
-
-    .header-img img {
-        width: 100%;
-    }
-
-    .header-texts {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    .banner-container {
-        margin: 0;
-    }
-
-    .sponsor {
-        flex-wrap: wrap;
-        margin: 0;
-        /* padding: 0; */
-    }
-
-    .sponsor img {
-        width: 90px;
-        margin: 10px auto;
-
-
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 960px) {
-
-    .nav,
-    .banner-container {
-        flex-direction: column-reverse;
-    }
-
-    .nav {
-        margin: 10px;
-    }
-
-    .nav ul {
-        flex-wrap: wrap;
-        gap: 50px;
-        margin-bottom: 10px;
-    }
-
-    .nav h3 {
-        margin-bottom: 30px;
-        font-size: 1.3rem;
-        color: var(--headings-color);
-    }
-
-    .header-img img {
-        width: 100%;
-    }
-
-    .header-img {
-        margin-bottom: 40px;
-    }
-
-    .sponsor {
-        flex-wrap: wrap;
-        margin: 0 auto;
-        gap: 30px;
-        width: 60%;
-    }
-
-    .sponsor img {
-        max-width: 100px;
-        margin: 15px auto;
-
-    }
-
-
-}
